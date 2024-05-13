@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University website clone</title>
+    <script
+      src="https://kit.fontawesome.com/3443574b0e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="sub-header">
+      <nav>
+        <a href="index.html"> <img src="imgs/logo.png" alt="logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark fa" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+              <a href="index.html">HOME</a>
+            </li>
+            <li>
+              <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+              <a href="course.html">COURSE</a>
+            </li>
+            <li>
+              <a href="blog.html">BLOG</a>
+            </li>
+            <li>
+              <a href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online Programs For , 2023</h1>
+    </header>
+
+    <!-- ------ blog page content -------------- -->
+
+    <section class="blog-content">
+<div class="row">
+  <div class="blog-left">
+    <img src="imgs/certificate.jpg" alt="">
+    <h2>Our Certificate & Online Programs For 2023</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, minus beatae doloribus asperiores ratione a expedita, sunt dolores reprehenderit dolor ut quod voluptatum odio omnis ipsum sapiente accusamus possimus! Culpa.</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quod sit cumque hic suscipit earum tenetur! Veniam nesciunt corporis modi est quaerat eius officiis aspernatur natus iure recusandae, quae consectetur!</p>
+    <br>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorum ratione dicta voluptates doloribus cum, numquam nesciunt, consequuntur itaque fugiat quia? Eius sed molestiae, id similique impedit eum adipisci iste, ab quae aspernatur voluptatum distinctio consectetur autem cum hic minima soluta perferendis quia aliquam saepe atque veniam! Deleniti fuga eveniet, perferendis maxime tenetur dolor delectus, magni repellat facilis odit totam officia sit obcaecati, culpa ex enim? Ad ullam suscipit a fugit odit laudantium in ratione. Laudantium dolore, similique repellat, ex natus praesentium rerum eum nesciunt ipsa perspiciatis sed dolores eos eligendi dolor commodi error impedit obcaecati consequatur ipsam architecto qui.</p>
+<div class="comment-box">
+  <h3>Leave a Comment </h3>
+  <form class="comment-form" >
+    <input type="text" placeholder="Enter Name ">
+    <input type="email" placeholder="Enter Email ">
+<textarea  rows="5" placeholder="Your comment"></textarea>
+<button type="submit" class="hero-btn red-btn">Post Comment</button>
+  </form>
+</div>
+
+  </div>
+  <div class="blog-right">
+    <h3>Post Categories </h3>
+    <div>
+      <span>Business Analytics</span>
+      <span>21</span>
+    </div>
+    <div>
+      <span>Data Science</span>
+      <span>27</span>
+    </div>
+    <div>
+      <span>Machine Learning</span>
+      <span>17</span>
+    </div>
+    <div>
+      <span>Computer Science</span>
+      <span>29</span>
+    </div>
+  </div>
+</div>
+
+    </section>
+
+
+
+    <footer>
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, unde.
+        Commodi cum dolores totam inventore pariatur corporis in numquam ex,
+        <br />
+        excepturi nihil eos deserunt officia! Rerum tempora modi repellendus
+        adipisci.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa-solid fa-heart"></i> by tufaan</p>
+    </footer>
+    <!-- ---------------javascript ----------- -->
+    <script>
+      let navLinks = document.getElementById("navLinks");
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+      function showMenu() {
+        navLinks.style.right = "0px";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University website clone</title>
+    <script
+      src="https://kit.fontawesome.com/3443574b0e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="sub-header">
+      <nav>
+        <a href="index.html"> <img src="imgs/logo.png" alt="logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark fa" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+              <a href="index.html">HOME</a>
+            </li>
+            <li>
+              <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+              <a href="course.html">COURSE</a>
+            </li>
+            <li>
+              <a href="blog.html">BLOG</a>
+            </li>
+            <li>
+              <a href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Courses</h1>
+    </header>
+
+   <!-- ------Course -------  -->
+
+
+   <section class="course">
+    <h1>Courses We Offer</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+      excepturi.
+    </p>
+    <div class="row">
+      <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+          aut quam cupiditate dolore molestiae explicabo, aspernatur, quisquam
+          corrupti qui delectus sunt itaque! Aut cum fugiat aliquam
+          perspiciatis, voluptas at! Dolore.
+        </p>
+      </div>
+      <div class="course-col">
+        <h3>Degree</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+          aut quam cupiditate dolore molestiae explicabo, aspernatur, quisquam
+          corrupti qui delectus sunt itaque! Aut cum fugiat aliquam
+          perspiciatis, voluptas at! Dolore.
+        </p>
+      </div>
+      <div class="course-col">
+        <h3>Post Graduation</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+          aut quam cupiditate dolore molestiae explicabo, aspernatur, quisquam
+          corrupti qui delectus sunt itaque! Aut cum fugiat aliquam
+          perspiciatis, voluptas at! Dolore.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ------- facilities ------  -->
+
+   <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum inventore neque labore tenetur harum amet maiores maxime corrupti aliquam pariatur, possimus, beatae ipsa incidunt animi, eius consequuntur explicabo distinctio corporis!</p>
+
+      <div class="row">
+            <div class="facilities-col">
+                  <img src="imgs/library.png" >
+                  <h3>World Class library</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, sequi.</p>
+            </div>
+            <div class="facilities-col">
+                  <img src="imgs/basketball.png" >
+                  <h3>Largest Play Ground</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, sequi.</p>
+            </div>
+            <div class="facilities-col">
+                  <img src="imgs/cafeteria.png" >
+                  <h3>Tasty and Healthy Food</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, sequi.</p>
+            </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+    <footer>
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, unde.
+        Commodi cum dolores totam inventore pariatur corporis in numquam ex,
+        <br />
+        excepturi nihil eos deserunt officia! Rerum tempora modi repellendus
+        adipisci.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa-solid fa-heart"></i> by tufaan</p>
+    </footer>
+    <!-- ---------------javascript ----------- -->
+    <script>
+      let navLinks = document.getElementById("navLinks");
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+      function showMenu() {
+        navLinks.style.right = "0px";
+      }
+    </script>
+  </body>
+</html>
